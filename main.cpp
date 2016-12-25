@@ -12,7 +12,7 @@
 //
 // (Some creative grouping may have been used)
 
-// I know, using defines it cheating, but
+// I know, using defines is cheating, but
 // its only used for self reflection. So
 // I will allow it.
 #define X operator
