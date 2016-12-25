@@ -29,11 +29,11 @@ struct Fib {
 		// (the hat it just for show)
 		<~- n,
 		// Roadkill chameleon operator. Chameleons with
-        // their perfectly curly tail. Modify and transfer
-        // state.
+		// their perfectly curly tail. Modify and transfer
+		// state.
 		_,x+_>
 		// Its amazing face emoticon. Eyes closed and mouth
-        // wide open. Conveys emotional state of author.
+		// wide open. Conveys emotional state of author.
 		X->()
 		const {
 			// Return the winking frog. Got to make
@@ -51,12 +51,12 @@ struct Fib<0, x, _> {
 	// will trap it in a logic loop.
 	//
 	// (it is not the "where tadpoles comes from" operator)
-    static constexpr auto o=x;
-    constexpr auto
-        // I know, its amazing
+	static constexpr auto o=x;
+	constexpr auto
+		// I know, its amazing
 		X->()
 		// this is the result, so we return this
-        const { return this; }
+		const { return this; }
 };
 
 template<int n>
@@ -89,7 +89,7 @@ int main() {
 		// calculates Fibonacci for n=14.
 		//
 		// (need to break closing > to make it work, turning it
-        // 90 degrees counter clock wise will do it)
+		// 90 degrees counter clock wise will do it)
 		fib<14^
 		// Little person jumping off a trampoline operator,
 		// this triggers the actual calculation using compile
@@ -97,6 +97,6 @@ int main() {
 		___ >->o;
 	// Prefer printf, have you looked at the assembly
 	// output when using cout instead?
-    std::printf("%d\n", result);
-    return 0;
+	std::printf("%d\n", result);
+	return 0;
 }
